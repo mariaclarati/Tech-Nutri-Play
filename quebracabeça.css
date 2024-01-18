@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url('background.png')
+}
+
+
+#title {
+    margin-top: 100px;
+    color: yellow;
+}
+
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: lightblue;
+    border: 10px solid rgb(182, 17, 182);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #0c67ae;
+}
+
+button {
+    background-color: rgb(223, 0, 223); 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    margin: 25px;
+}
+
+
+button:hover {
+    background-color: purple; 
+}
